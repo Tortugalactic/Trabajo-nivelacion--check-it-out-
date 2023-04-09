@@ -19,6 +19,9 @@ Paleta de color:
 
 El footer no se puso a drede por razones estéticas
 
+TRELLO:
+https://trello.com/invite/b/2cHxxT4P/ATTIe621cddee52048fb71281a81956d4e7fD974E23F/nivelacion-bit
+
 ——————————————
 
 ┏( ゜)ਊ゜)┛
