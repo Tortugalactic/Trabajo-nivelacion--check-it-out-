@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+body {
+    background-image: url('../assets/Img/check-it.out!2.png');
+    background-size: 100% 100%;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+
+
+
+}
+
+.header {
+    height: 5em;
+    background-color: #F9D895;
+    border: .01em #362F25;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin: 0%;
+    
+
+
+}
+
+.header .logo-cont img {
+    margin-left: 2em;
+    width: 4.5em;
+    height: auto;
+}
+
+.tittle {
+    justify-content: center;
+    margin-top: 5em;
+
+}
+  
+.headder .tittle h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+h1 {
+    color: #362F25;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    
+    font-size: 4.5em;
+}
+
+.row {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 80%;
+    border-radius: 8px;
+    background-color: #DDCBD2;
+    border: 1px solid #DDCBD2;
+    margin-top: 2em;
+    padding: 0;
+    opacity: .95;
+    /*box-shadow: rgba(240, 46, 170, 0.4) 5px 5px,
+    rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px,
+    rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+*/
+}
+
+.secc-form {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.logo-form{
+    
+    align-items: flex-start;
+
+}
+
+.logo-form img{
+    max-width: 13%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.advertencia p{
+    font-size: .6em;
+}
+
+.btn{
+ display: flex;
+ text-align: center;
+ justify-content: center;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 600;
+
+}
+
+.col-auto{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+.container-footer{
+    height: 5em;
+    background-color: #42352A;
+    border: .01em #362F25;
+    display: flex;
+    opacity: 1;
+    display: none;
+}
+
+
+@media screen and (max-width:920px){
+    .header {
+        display: none;
+    }
+}
